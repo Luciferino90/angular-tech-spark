@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="container">
+    <img src="../assets/Apache_Spark_logo.svg.png" alt="Spark Logo">
+  </div>
+  <div class="container4">
+    <div class="container5">
+      <label>Please, choose an username then click the submit button</label>
+    </div>
+    <div class="container6">
+      <input style="text-align: center" type="text" [(ngModel)]="name">
+    </div>
+    <div class="container7">
+      <button class="btn btn-primary" [disabled]="name === null || name === ''" (click)="performCall(name)">
+        Submit
+      </button>
+    </div>
+  </div>
+</div>

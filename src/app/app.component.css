@@ -1,0 +1,46 @@
+div.container4 {
+  height: 15em;
+  position: relative;
+  top: 50%;
+}
+
+div.container5 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+}
+
+div.container6 {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+div.container7 {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#iputtext {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
